@@ -1,0 +1,32 @@
+{
+  "name": "project-bible",
+  "description": "Bible search application",
+  "author": "Laszlo Vadasz",
+  "license": "MIT",
+  "version": "1.0.0",
+  "main": "server/server.js",
+  "keywords": [
+    "bible"
+  ],
+  "engines": {
+    "node": ">=0.10.40"
+  },
+  "dependencies": {
+    "dogwater": "^1.0.0",
+    "good": "^6.3.0",
+    "good-console": "^5.0.2",
+    "hapi": "^9.0.2",
+    "joi": "^6.6.1",
+    "ramda": "^0.17.1",
+    "sails-mongo": "^0.11.2",
+    "waterline": "^0.10.26"
+  },
+  "scripts": {
+    "start": "node server/server.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "devDependencies": {
+    "cheerio": "^0.19.0",
+    "request": "^2.60.0"
+  }
+}
